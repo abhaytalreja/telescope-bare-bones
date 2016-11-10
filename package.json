@@ -28,6 +28,7 @@
     "react-cookie": "^0.4.6",
     "react-datetime": "^2.3.2",
     "react-dom": "^15.3.2",
+    "react-filters": "^0.2.3",
     "react-helmet": "^3.1.0",
     "react-intl": "^2.1.3",
     "react-komposer": "^1.8.0",
@@ -43,6 +44,9 @@
   "private": true,
   "devDependencies": {
     "autoprefixer": "^6.3.6"
+  },
+  "scripts": {
+    "start-meteor": "MONGO_URL=mongodb://prod:sachin_1248@aws-us-east-1-portal.14.dblayer.com:10214,aws-us-east-1-portal.13.dblayer.com:10159/class-bargain meteor run"
   },
   "postcss": {
     "plugins": {

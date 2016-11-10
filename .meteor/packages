@@ -26,6 +26,7 @@ nova:rss
 
 nova:base-components
 nova:base-styles
+abhaytalreja:nova-class-bargain-theme
 nova:base-routes
 nova:email-templates
 nova:i18n-en-us

@@ -231,6 +231,25 @@ Meteor.methods({
   },
 
   /**
+   * @summary Check for the user and Upvote an item
+   * @memberof Posts
+   * @isMethod true
+   * @param {String} url - the URL to check
+   */
+  'posts.checkAndUpvote': function(postId, userId){
+    console.log('checkAndUpvote called', postId, userId);
+    let post = Posts.findOne(postId);
+    let user = Meteor.users.findOne(userId);
+    if (Users.hasUpvoted(user, post)) {
+      Meteor.call('posts.cancelUpvote', post._id, () => {
+      });        
+    } else {
+      Meteor.call('posts.upvote', post._id, () => {
+      });
+    }
+  },
+
+  /**
    * @summary Check for other posts with the same URL
    * @memberof Posts
    * @isMethod true
