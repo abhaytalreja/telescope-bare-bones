@@ -12,7 +12,7 @@ import Helmet from 'react-helmet';
 import Cookie from 'react-cookie';
 import ReactDOM from 'react-dom';
 
-Telescope.routes.indexRoute = { name: "posts.list", component: Telescope.components.PostsHome };
+Telescope.routes.indexRoute = { name: "home", component: Telescope.components.Home };
 
 Meteor.startup(() => {
 

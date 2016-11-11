@@ -6,19 +6,19 @@ nova:core # do not remove!
 
 nova:settings
 nova:users
-nova:posts
-nova:comments
-nova:newsletter
-nova:search
-nova:notifications
-nova:getting-started
-nova:categories
-nova:voting
+# nova:posts
+# nova:comments
+# nova:newsletter
+# nova:search
+# nova:notifications
+# nova:getting-started
+# nova:categories
+# nova:voting
 nova:forms
-nova:embedly
-nova:api
+# nova:embedly
+# nova:api
 nova:email
-nova:rss
+# nova:rss
 # nova:subscribe
 # nova:cloudinary
 
@@ -26,9 +26,9 @@ nova:rss
 
 nova:base-components
 nova:base-styles
-abhaytalreja:nova-class-bargain-theme
+# abhaytalreja:nova-class-bargain-theme
 nova:base-routes
-nova:email-templates
+# nova:email-templates
 nova:i18n-en-us
 
 accounts-password@1.3.0
@@ -43,3 +43,4 @@ nova:debug
 ############ Your Packages ############
 
 # my-custom-package
+abhaytalreja:follow-me-always

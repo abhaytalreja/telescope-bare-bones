@@ -24,10 +24,6 @@ const Header = (props, {currentUser}) => {
             {currentUser ? <Telescope.components.UsersMenu/> : <Telescope.components.UsersAccountMenu/>}
           </div>
 
-          <div className="nav-new-post">
-            <Telescope.components.PostsNewButton/>
-          </div>
-
         </div>
 
       </header>
